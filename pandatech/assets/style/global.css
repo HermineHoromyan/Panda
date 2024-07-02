@@ -1,0 +1,41 @@
+@import "../../assets/fonts/font.css";
+
+.G-container {
+   max-width: 1500px;
+   width: 100%;
+   padding: 0 50px;
+   margin: 0 auto;
+}
+.G-bg-cover {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.G-bg-contain {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+.G-section-title{
+   font-size: 80px;
+   font-weight: 900;
+   color: #11024D;
+}
+.G-section-title p{
+   font-size: 30px;
+   line-height: 45px;
+   font-family: "Poppins";
+   color: #8D8D8D;
+   font-weight: 600;
+   max-width: 884px;
+   width: 100%;
+}
+.G-subtitle{
+   color: var(--global-green);
+   font-size: 50px;
+   margin-bottom: 30px;
+   font-weight: 800;
+}
+.G-align-end{
+   text-align: end;
+}

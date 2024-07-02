@@ -1,0 +1,25 @@
+:root{
+    /*--light-mode-colors--*/
+
+    --lightmode-bg: #ffffff;
+    --lightmode-title: #11024D;
+    --lightmode-text: #959595;
+    --lightmode-green-opacity: rgba(62, 204, 153, 0.3);
+    --lightmode-blue-opacity:  rgba(78, 55, 211, 0.3);
+
+    /*--global-colors--*/
+    --global-green: #3ecc99;
+    --global-blue: #4e37d3;
+    --global-icons-links: #376bd3;
+
+
+    /*--dark-mode-colors--*/
+    --darkmode-bg: #11024D;
+    --darkmode-title: #ffffff;
+    --darkmode-text: #aaa7b6;
+    --darkmode-green-opacity: rgba(161, 255, 221, 0.3);
+    --darkmode-icons: #29186e;
+    --darkmode-blue-opacity:  rgba(78, 55, 211, 0.3);
+
+
+}

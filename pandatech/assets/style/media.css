@@ -1,0 +1,708 @@
+@media (max-width : 1600px) {
+    .G-container {
+        padding : 0 30px;
+    }
+
+    .G-subtitle {
+        font-size : 40px;
+    }
+
+    .P-header-nav-block-menu-item + .P-header-nav-block-menu-item {
+        margin-left : 34px;
+    }
+
+    .G-section-title p {
+        font-size   : 28px;
+        line-height : 40px;
+    }
+
+    .P-advantages, .P-services, .P-join-block {
+        margin-bottom : 80px;
+    }
+
+    .P-about-block-context-text {
+        flex-direction : column;
+    }
+
+    .P-about-block-context-text p, .P-about-block-context-text span {
+        width : 100%;
+    }
+
+    .P-services {
+        min-height : unset;
+    }
+
+    .P-services-block-item-title {
+        padding : 20px;
+    }
+
+    .P-services-block-item-title h4 {
+        font-size   : 30px;
+        line-height : 40px;
+    }
+
+    .P-careers {
+        margin-top : 80px;
+    }
+
+    .P-careers-img {
+        width : 45%;
+    }
+
+    .P-careers-text {
+        width : 55%;
+    }
+
+    .P-contacts-info-item {
+        margin-bottom : 25px;
+    }
+
+    .P-contacts-info-item p, .P-contacts-info-item a {
+        font-size : 20px;
+    }
+
+    .P-team-block-list-info {
+        justify-content : space-around;
+    }
+
+    .P-team-member-img {
+        width  : 290px;
+        height : 290px;
+    }
+
+    .P-advantages-block-item-hover {
+        width : 250px;
+    }
+
+    .G-section-title p {
+        font-size   : 25px;
+        line-height : 35px;
+    }
+
+    .P-contacts-block-map iframe {
+
+        height : 350px;
+    }
+
+    .P-contacts-info-item p, .P-contacts-info-item a {
+        font-size : 20px;
+    }
+
+    .P-contacts-media-item {
+        font-size : 40px;
+    }
+
+    .P-services-block-item-img {
+        padding : 25px;
+    }
+
+}
+
+@media (max-width : 1200px) {
+
+    .G-section-title {
+        font-size : 70px;
+    }
+
+    .G-subtitle {
+        font-size : 35px;
+    }
+
+    .P-cover-section {
+        min-height  : 500px;
+        height      : 100%;
+        padding-top : 110px;
+
+    }
+
+    .P-cover-section-block-title {
+        font-size : 60px;
+    }
+
+    .P-cover-section-block-text {
+        font-size   : 30px;
+        line-height : 40px;
+    }
+
+    .P-advantages-block-item-img {
+        width   : 120px;
+        height  : 120px;
+        padding : 20px;
+    }
+
+    .P-advantages-block-item:before {
+        top: 120px;
+    }
+
+    .P-advantages-block-item-hover {
+        width       : 180px;
+        padding     : 5px;
+        font-size   : 10px;
+        line-height : 15px;
+    }
+
+    .P-about-block-context-text span {
+        font-size : 25px;
+
+    }
+
+    .P-about-block-context-text p, .P-careers-text-info, .P-join-block-info-text, .P-about-block-context-main p {
+        font-size   : 18px;
+        line-height : 28px;
+    }
+
+    .P-about-block-context-img {
+        height : 450px;
+    }
+
+    .P-join-img {
+        height : 260px;
+    }
+
+    .P-join-position-item-text, .P-join-position-item-icon {
+        padding : 20px;
+    }
+
+    .P-join-position-item-text {
+        font-size   : 16px;
+        line-height : 28px;
+    }
+
+    .P-join-position-item + .P-join-position-item {
+        margin-top : 45px;
+    }
+
+
+    .P-services-block-item-img {
+        padding : 25px;
+    }
+
+    .P-job-icon-box i {
+        font-size : 100px;
+    }
+}
+
+@media (max-width : 991.98px) {
+
+    .G-section-title {
+        font-size : 60px;
+    }
+
+    .P-header-nav-block-menu-item + .P-header-nav-block-menu-item {
+        margin-left : 10px;
+    }
+
+    .P-header-nav-block-menu-item a {
+        font-size : 16px;
+    }
+
+    .P-header-logo {
+        width  : 217px;
+        height : 49px;
+    }
+
+    .P-cover-section {
+        min-height : 433px;
+    }
+
+    .P-cover-section-block-title {
+        font-size : 45px;
+    }
+
+    .P-cover-section-block-text {
+        font-size   : 20px;
+        line-height : 30px;
+    }
+
+    .P-advantages-block {
+        flex-wrap : wrap;
+    }
+
+    .P-advantages-block-item {
+        width         : 33.3%;
+        margin-bottom : 30px;
+    }
+
+    .P-advantages-block-item-img {
+        margin : 0 auto;
+    }
+
+    .P-advantages, .P-services, .P-join-block {
+        margin-bottom : 40px;
+    }
+
+    .P-advantages-block-item:nth-child(odd) .P-advantages-block-item-hover {
+        background-color : var(--global-green);
+    }
+
+    .P-advantages-block-item:nth-child(even) .P-advantages-block-item-hover {
+        background-color : var(--global-blue);
+    }
+
+    .G-dark-mode .P-advantages-block-item .G-dark-mode-text {
+        color : white;
+    }
+
+    .P-advantages-block-item-hover {
+        z-index : 99;
+        color   : white;
+    }
+
+    .P-advantages-block-item:hover:before {
+        height : 58px;
+    }
+
+    .P-about-block-context, .P-about-block-context:nth-child(odd) {
+        flex-direction : column;
+    }
+
+    .P-about-block-context-main, .P-about-block-context-img {
+        width         : 100%;
+        margin-bottom : 20px;
+    }
+
+    .P-services, .P-careers, .P-contacts, .P-footer, .P-team {
+        margin-top : 50px;
+    }
+
+    .P-services-block {
+        flex-wrap       : wrap;
+        justify-content : space-around;
+        margin-top      : 25px;
+    }
+
+    .P-services-block-item {
+        width         : 48.5%;
+        margin-bottom : 20px;
+    }
+
+    .P-contacts-block {
+        flex-direction : column;
+    }
+
+    .P-contacts-block-list, .P-contacts-block-map {
+        width : 100%;
+    }
+
+    .P-contacts-block-list {
+        margin-bottom : 20px;
+    }
+
+    .P-footer-block-text {
+        font-size : 15px;
+    }
+
+    .P-footer-logo {
+        width  : 153px;
+        height : 50px;
+    }
+
+    .P-contacts-info-item {
+        margin-bottom : 20px;
+    }
+
+    .P-team-block-list {
+        margin-top : 25px;
+    }
+
+    .P-team-member-img {
+        width  : 230px;
+        height : 230px;
+    }
+
+    .P-team-member {
+        padding-left  : 30px;
+        margin-bottom : 25px;
+    }
+
+    .P-team-member-info p {
+        font-size     : 18px;
+        margin-bottom : 10px;
+    }
+
+    .P-team-member-media .icon {
+        font-size : 30px;
+    }
+
+    .P-team-member-info span {
+        font-size : 14px;
+    }
+
+    .P-padding-job {
+        width   : 50%;
+        padding : 15px;
+    }
+
+    .P-join-position {
+        margin : -15px -15px 0;
+    }
+}
+
+@media (max-width : 767.98px) {
+    .P-header-nav {
+        padding : 10px 0;
+    }
+
+    .P-header-logo {
+        width  : 215px;
+        height : 40px;
+    }
+
+    .P-color-mode {
+        margin-right : 50px;
+    }
+
+    .G-container {
+        padding : 0 20px;
+    }
+
+    .P-cover-section {
+        min-height  : 300px;
+        padding-top : 80px;
+    }
+
+    .P-cover-section-block-title {
+        font-size : 30px;
+    }
+
+    .P-advantages-block-item-img {
+        width  : 105px;
+        height : 105px;
+    }
+
+    .P-advantages-block-item:before {
+        top : 105px;
+    }
+
+    .P-header-nav-block-menu-item a {
+        font-size : 18px;
+    }
+
+    .P-header-nav-block-menu-item, .P-header-nav-block-menu-item + .P-header-nav-block-menu-item {
+        margin-left   : 30px;
+        margin-bottom : 18px;
+    }
+
+    .open-menu {
+        display  : flex;
+        position : absolute;
+        right    : 15px;
+        z-index  : 999999999;
+        top      : 18px;
+    }
+
+    .open-menu span:nth-child(2), .open-menu span:nth-child(3) {
+        top : 10px;
+    }
+
+    .open-menu span:last-child {
+        top : 20px;
+    }
+
+    .G-dark-mode .G-header .menu-cnt {
+        background-color : var(--darkmode-bg);
+    }
+
+    .menu-cnt {
+        margin           : 0;
+        height           : 100%;
+        width            : 0;
+        position         : fixed;
+        z-index          : 9;
+        border-top       : 1px solid var(--global-blue);
+        border-radius    : 10px 0 0 0;
+        top              : 60px;
+        right            : 0;
+        overflow-x       : hidden;
+        padding          : 10px 0;
+        background-color : white;
+    }
+
+    .menu-cnt ul {
+        flex-direction : column;
+        align-items    : flex-start;
+        margin-top     : 30px;
+    }
+
+    .P-advantages-block-item-text {
+        font-size : 14px;
+    }
+
+    .P-advantages-block-item-hover {
+        width       : 150px;
+        padding     : 5px;
+        font-size   : 8px;
+        line-height : 10px;
+    }
+
+    .G-section-title {
+        font-size : 45px;
+    }
+
+    .P-advantages, .P-services, .P-join-block {
+        margin-bottom : 20px;
+    }
+
+    .P-about-block-context-text p, .P-careers-text-info, .P-join-block-info-text, .P-about-block-context-main p {
+        font-size   : 16px;
+        line-height : 26px;
+    }
+
+    .P-join-img {
+        height : 200px;
+    }
+
+    .P-join-position-item-text {
+        font-size   : 12px;
+        line-height : 20px;
+    }
+
+    .P-join-position-item-text {
+        font-size   : 12px;
+        line-height : 20px;
+    }
+
+    .P-join-position-item-icon .icon {
+        font-size : 65px;
+    }
+
+    .P-join-position-item + .P-join-position-item {
+        margin-top : 20px;
+    }
+
+    .G-section-title p {
+        font-size   : 16px;
+        line-height : 25px;
+        max-width   : 500px;
+        width       : 100%;
+    }
+
+    .P-contacts-block {
+        margin-top : 20px;
+    }
+
+    .P-contacts-info-item .icon {
+        font-size    : 20px;
+        margin-right : 20px;
+    }
+
+
+    .P-contacts-info-item p, .P-contacts-info-item a {
+        font-size : 15px;
+    }
+
+    .P-contacts-media-item + .P-contacts-media-item {
+        margin-left : 19px;
+    }
+
+    .P-contacts-media-item {
+        font-size : 30px;
+    }
+
+    .P-contacts-block-map iframe {
+        height : 230px;
+    }
+
+    .P-services, .P-careers, .P-contacts, .P-footer, .P-team {
+        margin-top : 20px;
+    }
+
+
+    .P-services-block-item-img {
+        height  : 220px;
+        padding : 25px;
+    }
+
+    .P-services-block-item-hover {
+        font-size   : 17px;
+        line-height : 25px;
+    }
+
+    .P-services-block-item-title {
+
+        min-height : auto;
+    }
+
+    .P-services-block-item-title h4 {
+        font-size   : 25px;
+        line-height : 35px;
+    }
+
+    .P-careers-text-more a {
+        font-size   : 18px;
+        line-height : 20px;
+
+    }
+
+    .P-about-block-context-img {
+        height : 300px;
+    }
+
+    .P-team-member-info span {
+        font-size : 14px;
+    }
+
+    .P-padding-job {
+        width   : 100%;
+        padding : 15px 0;
+    }
+
+    .P-join-position {
+        margin : -15px 0 0 0;
+    }
+}
+
+@media (max-width : 575.98px) {
+    .P-cover-section {
+        min-height : 210px;
+    }
+
+    .P-cover-section-block-title {
+        font-size : 24px;
+    }
+
+    .open-menu {
+        width  : 30px;
+        height : 10px;
+        top    : 13px;
+
+    }
+
+    .P-color-mode {
+        margin-right : 40px;
+    }
+
+    .P-header-logo {
+        height : 25px;
+    }
+
+    .open-menu span:last-child {
+        top : 16px;
+    }
+
+    .open-menu span:nth-child(2), .open-menu span:nth-child(3) {
+        top : 8px;
+    }
+
+    .open-menu span {
+        height : 3px;
+    }
+
+    .menu-cnt {
+        top : 45px;
+    }
+
+    .menu-cnt ul {
+        margin-top : 20px;
+    }
+
+    .P-header-nav-block-menu-item, .P-header-nav-block-menu-item + .P-header-nav-block-menu-item {
+        margin-left   : 20px;
+        margin-bottom : 14px;
+    }
+
+    .P-about-block-context-img {
+        height : 250px;
+    }
+
+    .P-advantages-block-item-img {
+        width   : 90px;
+        height  : 90px;
+        padding : 15px;
+    }
+
+    .P-advantages-block-item:before {
+        top : 88px;
+    }
+
+    .P-advantages-block-item-hover {
+        width : 105px;
+    }
+
+    .G-section-title {
+        font-size : 40px;
+    }
+
+    .G-subtitle {
+        margin-bottom : 10px;
+    }
+
+    .P-services-block-item {
+        width : 80%;
+    }
+
+    .P-careers-block {
+        flex-direction : column-reverse;
+    }
+
+    .P-careers-text {
+        width : 100%;
+    }
+
+    .P-careers-img {
+        width      : 100%;
+        height     : 200px;
+        margin-top : 20px;
+    }
+
+    .P-contacts-info-item {
+        margin-bottom : 10px;
+    }
+
+    .P-contacts-info-item p, .P-contacts-info-item a {
+        font-size : 14px;
+    }
+
+    .P-footer-block-text {
+        font-size  : 10px;
+        text-align : end;
+    }
+
+    .P-footer-logo {
+        width  : 108px;
+        height : 34px;
+    }
+
+    .P-team-member-img {
+        width   : 141px;
+        height  : 141px;
+        padding : 5px;
+    }
+
+    .P-team-member-info p {
+        font-size     : 14px;
+        margin-bottom : 5px;
+    }
+
+    .P-team-member-info span {
+        font-size : 12px;
+    }
+
+    .P-team-member-media .icon {
+        font-size : 24px;
+    }
+
+    .P-join-block-info {
+        width : 80%;
+    }
+
+    .P-join-img {
+        height : 176px;
+    }
+
+    .P-join-block-info-text {
+        margin-top : 15px;
+    }
+
+    .P-join-position-item-text, .P-join-position-item-icon {
+        padding : 8px;
+    }
+
+    .P-join-position-item-text {
+        line-height : 18px;
+    }
+    .P-job-icon-box {
+        width: 100px;
+        height: 100px;
+    }
+}
